@@ -1,0 +1,26 @@
+
+p, h1 {
+font-family: 'Montserrat', sans-serif;
+}
+.row {
+  margin: 15px;
+}
+
+.blurme {
+  filter: blur(9px);
+  -webikit-filter: blur(9px);
+}
+ .box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    }
